@@ -239,13 +239,51 @@ html::-webkit-scrollbar-thumb {
     border: 1px solid blue;
 }
 .image-foods {
-    display: block;
-    position: relative;
-    border: #F15A29;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 5px;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    border: 1px black;
     width: 50%;
     height: 100%;
 }
+#fastFood1 {
+    height: 50%;
+}
+#fastFood2 {
+    height: 50%;
+}
 
+.paragraph-foods {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding-right: 300px;
+    padding-left: 100px;
+    padding-top: 80px;
+    font-size: 18px;
+    justify-content: space-around;
+}
+button {
+    border-color: var(--full-screen-menu);
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    align-items: normal;
+    padding-left: 0;
+    color: var(--full-screen-menu);
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--full-screen-menu);
+    color: #fff;
+}
 
   
 
