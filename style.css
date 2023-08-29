@@ -16,7 +16,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-    width: 0rem;
+    width: 1rem;
 }
 
 html::-webkit-scrollbar-track {
@@ -36,6 +36,7 @@ html::-webkit-scrollbar-thumb {
     background-image: url("images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 700px;
     margin-top: 0;
     padding-top: 0;
@@ -79,8 +80,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .in {
+    position: relative;
     align-items: center;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 .top img {
     width: 300px;
@@ -189,13 +191,18 @@ html::-webkit-scrollbar-thumb {
 
 /*Media queries*/
 @media (max-width:991px) {
+
     html {
         font-size: 55%;
     }
+}
+
+@media (max-width:991px) {
+
     #menu-btn{
         display: inline-block;
     }
-    .icons .nav{
+    .nav{
         position: absolute;
         top: 100%; right: -100%;
         width: 30rem;
@@ -203,10 +210,10 @@ html::-webkit-scrollbar-thumb {
         background: #fff;
         background: 30rem;
     }
-    .icons .nav.active {
+    .nav.active {
         right: 0;
     }
-    .icons .nav a{
+    .nav a{
         display: block;
         color: black;
         margin: 1.5rem;
@@ -216,7 +223,28 @@ html::-webkit-scrollbar-thumb {
 }
 
 /*--------------------------page two--------------------------------------------------------*/
+.about {
+    display: block;
+    border: 1px solid black;
+    height: 100vh;
+    position: relative;
+}
 
+.foods {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    border: 1px solid blue;
+}
+.image-foods {
+    display: block;
+    position: relative;
+    border: #F15A29;
+    width: 50%;
+    height: 100%;
+}
 
 
   
