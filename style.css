@@ -344,7 +344,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border: 1px solid var(--full-screen-menu);
     background: #fff;
     margin-left: 200px;
     margin-right: 200px;
@@ -402,24 +401,69 @@ div.card {
     font-size: 18p;
   }
 
+  .plain-background {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+
+}
+
 .content {
+    display: flex;
+    flex-direction: row;
     box-sizing: border-box;
-    border: 1px solid var(--full-screen-menu);
     background: #fff;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 80px;
     height: 70%;
     width: 100%;
-}
-
-.plain-background {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 50vh;
     -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.content-left {
+    width: 50%;
+    height: 100%;
+    padding-top: 2%;
+    border-right: 1px solid rgb(223, 215, 215);
+}
+.content-left h1 {
+    color: var(--full-screen-menu);
+    text-align: center;
+    font-size: 30px;
+}
+.content-left h2 {
+    text-align: center;
+}
+.content-left p {
+    padding-left: 9%;
+    text-align: center;
+    font-size: 19px;
+}
+.customers {
+    margin-left: 30%;
+    margin-right: 40%;
+    margin-top: 5%;
+}
+
+.content-right {
+    width: 50%;
+    height: 100%;
+    padding-top: 2%;
+}
+.content-right h1 {
+    text-align: center;
+    color: var(--full-screen-menu);
+    font-size: 30px;
+}
+.content-right p {
+    text-align: center;
+    font-size: 22px;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+
 
