@@ -240,12 +240,16 @@ html::-webkit-scrollbar-thumb {
     flex-direction: column;
     box-sizing: border-box;
     box-shadow: 5px;
-    padding-top: 60px;
-    padding-left: 200px;
-    padding-right: 80px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     width: 50%;
     height: 100%;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #fastFood1 {
     height: 50%;
@@ -307,12 +311,16 @@ button:hover {
     flex-direction: row;
     box-sizing: border-box;
     box-shadow: 5px;
-    padding-top: 60px;
-    padding-left: 200px;
-    padding-right: 80px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     width: 50%;
     height: 100%;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #drink1 {
     width: 50%;
