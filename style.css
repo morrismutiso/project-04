@@ -225,7 +225,6 @@ html::-webkit-scrollbar-thumb {
 /*--------------------------page two--------------------------------------------------------*/
 .about {
     display: block;
-    border: 1px solid black;
     height: 100vh;
     position: relative;
 }
@@ -233,10 +232,8 @@ html::-webkit-scrollbar-thumb {
 .foods {
     display: flex;
     flex-direction: row;
-    position: absolute;
     width: 100%;
     height: 50vh;
-    border: 1px solid blue;
 }
 .image-foods {
     display: flex;
@@ -247,7 +244,6 @@ html::-webkit-scrollbar-thumb {
     padding-left: 200px;
     padding-right: 80px;
     padding-bottom: 50px;
-    border: 1px black;
     width: 50%;
     height: 100%;
 }
@@ -262,12 +258,14 @@ html::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     width: 50%;
-    align-items: center;
     padding-right: 300px;
     padding-left: 100px;
     padding-top: 80px;
     font-size: 18px;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.paragraph-foods p {
+    text-align: center;
 }
 button {
     border-color: var(--full-screen-menu);
@@ -276,7 +274,7 @@ button {
     height: 50px;
     font-size: 18px;
     align-items: normal;
-    padding-left: 0;
+    margin-bottom: 100px;
     color: var(--full-screen-menu);
     cursor: pointer;
 }
@@ -284,7 +282,62 @@ button:hover {
     background-color: var(--full-screen-menu);
     color: #fff;
 }
+.paragraph-drinks {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 300px;
+    padding-left: 100px;
+    padding-top: 80px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.paragraph-foods p {
+    text-align: center;
+}
 
+.drinks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+}
+.image-drinks {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    box-shadow: 5px;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    width: 50%;
+    height: 100%;
+}
+#drink1 {
+    width: 50%;
+    height: 100%;
+}
+#drink2 {
+    width: 50%;
+    height: 100%;
+}
+
+/*----------------------page three-----------------------------*/
+.gallery {
+    display: block;
+    border: 1px solid black;
+    height: 100vh;
+    position: relative;
+}
   
-
+.gallery-new {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    background-image: url("images/foodsBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
