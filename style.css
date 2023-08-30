@@ -488,4 +488,95 @@ div.card {
     height: 50vh;
     background: var(--full-screen-menu);
 }
+form {
+    justify-content: space-evenly;
+    margin-top: 8%;
+    margin-left: 30%;
+    justify-content: center;
+}
+form h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 2%;
+    background: rgba(0, 0, 0, .7);
+}
+input:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, .2);
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 20px;
+}
+
+#Subscribe {
+    margin-top: 2%;
+    margin-left: 5%;
+    background: var(--full-screen-menu);
+    color: #fff;
+    border-radius: 5px;
+}
+#Subscribe:hover {
+    color: var(--full-screen-menu);
+    background: #fff;
+}
+
+.social-all {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 100%;
+}
+.last-logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.last-logo img {
+    width: 100px;
+    height: 100px;
+}
+.last-logo h1 {
+    font-weight: lighter;
+    font-size: 100px;
+    color: #fff;
+    padding-left: 5%;
+}
+.centre {
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.centre h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-left: 14%;
+    margin-top: 5%;
+    padding: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+.p {
+    margin-top: 3%;
+    margin-left: 12%;
+}
+.p p {
+    color: #fff;
+    font-size: 20px;
+}
 
