@@ -52,7 +52,7 @@ code .
 ![First](D/1.png)
 - second
 ![Second](D/2.png)
--Third
+- Third
 ![Third](D/3.png)
 - Fourth
 ![Alt text](D/4.png)
